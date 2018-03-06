@@ -3,9 +3,9 @@
   #include <avr/power.h>
 #endif
 
-#define PIN            D4
+#define PIN            D4   // Pin on the ESP8266 NodeMCU 1.0
 
-#define NUMPIXELS      53
+#define NUMPIXELS      53   // Number of WS2812B in my Triangle light
 
 Adafruit_NeoPixel pixels = Adafruit_NeoPixel(NUMPIXELS, PIN, NEO_GRB + NEO_KHZ800);
 
